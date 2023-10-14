@@ -15,7 +15,7 @@ export async function POST({request, params}) {
             console.error(e);
             throw error(500, "Problem getting contentful space");
         });
-    const environment = await space.getEnvironment('money_Blog')
+    const environment = await space.getEnvironment('master')
         .catch(e => {
             console.error(e);
             throw error(500, "Problem getting contentful environment");
