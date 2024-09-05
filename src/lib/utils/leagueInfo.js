@@ -1,13 +1,13 @@
 /*   STEP 1   */
 export const leagueID = "1062566417930797056"; // your league ID
 export const leagueName = "Show Me The Money!"; // your league name
-export const dues = 60.00; // (optional) used in template constitution page
+export const dues = 60; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>"KilingMeSmalls" Found this amazing leauge a few years ago back in 2021. We are a 2-man MAX 2-year keeper leauge. Each year, the managers compete to win the Show Me The Money Title!</p>
+  <p>"KilingMeSmalls" the goat Found this amazing leauge a few years ago back in 2021. We are a 2-man MAX 2-year keeper leauge. Each year, the managers compete to win the Show Me The Money Title!</p>
   `;
 
   // <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
